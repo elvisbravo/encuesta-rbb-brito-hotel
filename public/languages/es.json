@@ -1,0 +1,39 @@
+{
+    "landing": {
+        "title": "Encuesta",
+        "description": "¡Hola! Queremos saber cómo fue tu experiencia en RBB BRITO HOTEL 4 ESTRELLAS. Tu opinión nos ayuda a crecer y asegurarnos de que tu próxima visita sea aún mejor. Completar esta encuesta solo te tomará unos minutos, y tus respuestas serán muy valiosas para nosotros. ¡Gracias por ayudarnos a mejorar!",
+        "startBtn": "Empezar!",
+        "footer": "© 2024 RBB BRITO HOTEL 4 ESTRELLAS"
+    },
+    "encuesta": {
+        "pregunta1": "¿Cómo fue tu experiencia con el proceso de reserva y la atención recibida en recepción?",
+        "pregunta2": "¿Qué tan satisfecho/a te sentiste con la limpieza de tu habitación?",
+        "pregunta3": "¿Qué tan satisfecho/a te sentiste con la atención y amabilidad del personal durante tu estadía en el hotel?",
+        "pregunta4": "¿Qué tan satisfecho/a quedó con la calidad de la comida ofrecida en el restaurante durante su estadía?",
+        "pregunta5": "¿Qué tan probable es que recomiende el hotel RBB BRITO 4 ESTRELLAS?",
+        "pregunta6": "¿Qué área del hotel considera que necesita más mejora ?"
+    },
+    "opciones": {
+        "recepcion": "Recepcion",
+        "reservas": "Reservas",
+        "restaurante": "Restaurante",
+        "bar_piscina": "Bar Piscina",
+        "habitaciones": "Habitaciones",
+        "cochera": "Cochera"
+    },
+    "emojis": {
+        "recomendaria": "Recomendaría",
+        "no-estoy-seguro": "No estoy seguro",
+        "no-recomendaria": "No recomendaría"
+    },
+    "final": {
+        "title": "¡Muchas gracias por tu tiempo, 😊 Tu opinión es muy valiosa para nosotros! 💙",
+        "descuento": "DESCUENTO EN SU PROXIMA VISITA DEL 20%",
+        "chat": "CHATEA CON nosotros"
+    },
+    "btnSurvey": {
+        "next": "Siguiente",
+        "previous": "Anterior",
+        "submit": "Enviar"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "landing": {
+        "title": "Survey",
+        "description": "Hello! We would love to hear about your experience at RBB BRITO HOTEL 4 STARS. Your feedback helps us grow and ensures that your next visit will be even better. Completing this survey will only take a few minutes, and your responses are incredibly valuable to us. Thank you for helping us improve!",
+        "startBtn": "Start!",
+        "footer": "© 2024 RBB BRITO HOTEL 4 STARS"
+    },
+    "encuesta": {
+        "pregunta1": "How was your experience with the booking process and the service received at the reception?",
+        "pregunta2": "How satisfied were you with the cleanliness of your room?",
+        "pregunta3": "How satisfied were you with the service and friendliness of the staff during your stay at the hotel?",
+        "pregunta4": "How satisfied were you with the quality of the food offered in the restaurant during your stay?",
+        "pregunta5": "How likely are you to recommend RBB BRITO 4 STARS Hotel?",
+        "pregunta6": "Which area of the hotel do you think needs the most improvement?"
+    },
+    "opciones": {
+        "recepcion": "Reception",
+        "reservas": "Reservations",
+        "restaurante": "Restaurant",
+        "bar_piscina": "Pool Bar",
+        "habitaciones": "Rooms",
+        "cochera": "Parking Garage"
+    },
+    "emojis": {
+        "recomendaria": "I would recommend",
+        "no-estoy-seguro": "I'm not sure",
+        "no-recomendaria": "I would not recommend"
+    },
+    "final": {
+        "title": "Thank you so much for your time! 😊 Your feedback is very valuable to us! 💙",
+        "descuento": "20% DISCOUNT ON YOUR NEXT VISIT",
+        "chat": "CHAT WITH US"
+    },
+    "btnSurvey": {
+        "next": "Next",
+        "previous": "Previous",
+        "submit": "Submit"
+    }
+}
