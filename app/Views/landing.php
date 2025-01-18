@@ -225,7 +225,7 @@
                                         <input type="radio" class="required rating-input" id="rating-input-5-no" name="rating_input_5" value="no_recomendar" onchange="getVals(this, 'rating_input_5');">
                                         <label for="rating-input-5-no" class="rating-label">
                                             <img src="https://cdn-icons-png.flaticon.com/512/742/742752.png" alt="No recomendaría" class="rating-icon">
-                                            <span data-section="emojis" data-value="recomendaria">No recomendaría</span>
+                                            <span data-section="emojis" data-value="no-recomendaria">No recomendaría</span>
                                         </label>
 
                                         <!-- Opción 2: No estoy seguro -->
@@ -239,7 +239,7 @@
                                         <input type="radio" class="required rating-input" id="rating-input-5-yes" name="rating_input_5" value="recomendar" onchange="getVals(this, 'rating_input_5');">
                                         <label for="rating-input-5-yes" class="rating-label">
                                             <img src="https://cdn-icons-png.flaticon.com/512/742/742751.png" alt="Recomendaría" class="rating-icon">
-                                            <span data-section="emojis" data-value="no-recomendaria">Recomendaría</span>
+                                            <span data-section="emojis" data-value="recomendaria">Recomendaría</span>
                                         </label>
                                     </span>
                                 </div>
