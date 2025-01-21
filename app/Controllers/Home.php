@@ -13,7 +13,7 @@ class Home extends BaseController
 
         $data = $encuesta->where('token', $token)->first();
 
-        $nombre = $data['nombre']." ".$data['apellidos'];
+        $nombre = $data['nombre'];
 
         return view('landing', compact('nombre', 'token'));
     }

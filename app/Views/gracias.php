@@ -59,8 +59,8 @@
                 </g>
             </svg>
         </div>
-        <h4 data-section="final" data-value="title">"¡Muchas gracias por tu tiempo, 😊 Tu opinión es muy valiosa para nosotros! 💙"</h4>
-        <button type="button" class="btn btn-warning" data-section="final" data-value="descuento">DESCUENTO EN SU PROXIMA VISITA DEL 20%</button>
+        <h4 data-section="final" data-value="title">"¡Muchas gracias por tu tiempo, 😊 Su opinión es muy valiosa para nosotros! 💙"</h4>
+        <button type="button" class="btn btn-warning" data-section="final" data-value="descuento">EN SU PROXIMA VISITA OBTENDRA UN DESCUENTO ESPECIAL</button>
         <div>
             <a href="https://wa.me/51951307467?text=Hola,%20me%20gustaría%20más%20información" target="_blank" class="btn btn-success mt-3" data-section="final" data-value="chat">CHATEA CON NOSOTROS</a>
         </div>
