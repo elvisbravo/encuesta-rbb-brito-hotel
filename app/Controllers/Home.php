@@ -7,9 +7,15 @@ use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 class Home extends BaseController
 {
-    public function index()
+    public function encuesta($token)
     {
-        return view('landing');
+        $encuesta = model('EncuestaModel');
+
+        $data = $encuesta->where('token', $token)->first();
+
+        $nombre = $data['nombre']." ".$data['apellidos'];
+
+        return view('landing', compact('nombre', 'token'));
     }
 
     public function saveSurvey()
@@ -21,19 +27,22 @@ class Home extends BaseController
         $resp5 = $this->request->getVar('rating_input_5');
         $mejorar = $this->request->getVar('mejorar');
 
+        $token = $this->request->getVar('token');
+
         $fecha = date('Y-m-d H:i:s');
 
         $encuesta = model('EncuestaModel');
 
+        $data_id = $encuesta->where('token', $token)->first();
+
         $datos_encuesta = array(
             "registro" => $fecha,
-            "correo" => "rbbbritohotel@gmail.com",
-            "estado" => 1
+            "estado" => "completado"
         );
 
-        $encuesta->insert($datos_encuesta);
+        $encuesta_id = $data_id['id'];
 
-        $encuesta_id = $encuesta->insertID();
+        $encuesta->update($encuesta_id, $datos_encuesta);
 
         $calificacion = model('CalificacionesModel');
 

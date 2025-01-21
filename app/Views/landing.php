@@ -73,7 +73,7 @@
                         </div>
 
                         <h2 data-section="landing" data-value="title">Encuesta</h2>
-                        <p data-section="landing" data-value="description">¡Hola! Queremos saber cómo fue tu experiencia en RBB BRITO HOTEL 4 ESTRELLAS. Tu opinión nos ayuda a crecer y asegurarnos de que tu próxima visita sea aún mejor. Completar esta encuesta solo te tomará unos minutos, y tus respuestas serán muy valiosas para nosotros. ¡Gracias por ayudarnos a mejorar!</p>
+                        <p> <span data-section="landing" data-value="saludo">¡Hola </span> <span>ELVIS! </span> <span data-section="landing" data-value="description">Queremos saber cómo fue tu experiencia en RBB BRITO HOTEL 4 ESTRELLAS. Tu opinión nos ayuda a crecer y asegurarnos de que tu próxima visita sea aún mejor. Completar esta encuesta solo te tomará unos minutos, y tus respuestas serán muy valiosas para nosotros. ¡Gracias por ayudarnos a mejorar!</span> </p>
                         
 
                         <a href="#start" class="btn_1 rounded" data-section="landing" data-value="startBtn">Empezar!</a>
@@ -93,6 +93,7 @@
                     <!-- /top-wizard -->
                     <form id="wrapped" method="POST">
                         <input id="website" name="website" type="text" value="">
+                        <input type="hidden" name="token" value="<?= $token ?>">
                         <!-- Leave for security protection, read docs for details -->
                         <div id="middle-wizard">
                             <div class="step">

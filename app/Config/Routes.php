@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/survey/fill/(:any)', 'Home::encuesta/$1');
 
 $routes->get('esperamos-nuevamente-su-visita', 'Home::graciasEncuesta');
 
@@ -18,3 +18,9 @@ $routes->get('getEncuesta/(:num)', 'Home::getSurvey/$1');
 $routes->get('descargar-excel', 'Home::descargar_excel');
 
 $routes->get('dashboard', 'Dashboard::index');
+
+$routes->group('api', function($routes) {
+    // Ruta para generar nuevo enlace de encuesta
+    $routes->post('survey/generate', 'SurveyController::generateSurveyLink');
+
+});

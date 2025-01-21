@@ -11,7 +11,7 @@
 
         protected $returnType     = 'array';
 
-        protected $allowedFields = ['id','registro','correo','estado'];
+        protected $allowedFields = ['id','registro','correo', 'nombre', 'apellidos', 'token', 'registroToken','estado'];
 
         protected $useTimestamps = false;
         protected $createdField  = 'created_at';

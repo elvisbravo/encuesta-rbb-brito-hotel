@@ -1,7 +1,8 @@
 {
     "landing": {
         "title": "Survey",
-        "description": "Hello! We would love to hear about your experience at RBB BRITO HOTEL 4 STARS. Your feedback helps us grow and ensures that your next visit will be even better. Completing this survey will only take a few minutes, and your responses are incredibly valuable to us. Thank you for helping us improve!",
+        "saludo": "Hello",
+        "description": "We would love to hear about your experience at RBB BRITO HOTEL 4 STARS. Your feedback helps us grow and ensures that your next visit will be even better. Completing this survey will only take a few minutes, and your responses are incredibly valuable to us. Thank you for helping us improve!",
         "startBtn": "Start!",
         "footer": "© 2024 RBB BRITO HOTEL 4 STARS"
     },
