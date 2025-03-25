@@ -18,22 +18,23 @@ class Login extends BaseController
 
         $info = $user->where('usuario', $usuario)->where('password', $password)->first();
 
-        if(!$info) {
+        if (!$info) {
             $data = array(
                 "respuesta" => "error",
                 "mensaje" => "Usuario y/o contraseña incorrectos"
             );
 
-            echo json_encode($data); exit();
+            echo json_encode($data);
+            exit();
         }
 
         session()->set([
-			'id_user' => $info['id'],
-			'nombre' => $info['nombre'],
-			'apellidos' => $info['apellidos'],
-			'usuario' => $usuario,
-			'is_logged' => true
-		]);
+            'id_user' => $info['id'],
+            'nombre' => $info['nombre'],
+            'apellidos' => $info['apellidos'],
+            'usuario' => $usuario,
+            'is_logged' => true
+        ]);
 
         $data = array(
             "respuesta" => "ok",
@@ -43,12 +44,12 @@ class Login extends BaseController
         return $this->response->setJSON($data);
     }
 
-    public function signout(){
-		session()->destroy();
+    public function signout()
+    {
+        session()->destroy();
 
         return $this->response->setJSON([
             "respuesta" => 'ok'
         ]);
-	}
-
+    }
 }
